@@ -1,0 +1,17 @@
+{
+  "name": "automationui_cypress",
+  "description": "There are 3 scenario that covered on this repo, \r 1. Successfull login\r 2. Added new category successfull (positive)\r 3. Added new category with empty “name” field (negative)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "Dian Agus",
+  "license": "ISC",
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "cypress": "^13.1.0",
+    "prettier": "^3.0.3"
+  }
+}
